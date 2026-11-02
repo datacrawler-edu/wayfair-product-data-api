@@ -1,0 +1,9 @@
+{
+  "name": "wayfair-product-data-api-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  }
+}

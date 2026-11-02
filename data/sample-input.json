@@ -1,0 +1,14 @@
+{
+  "mode": "category",
+  "categoryUrls": [
+    "413892"
+  ],
+  "includeDetails": true,
+  "maxItems": 3,
+  "filters": [
+    {
+      "filterId": "69278",
+      "optionId": "8"
+    }
+  ]
+}

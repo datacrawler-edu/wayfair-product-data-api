@@ -1,0 +1,23 @@
+{
+  "mode": "products",
+  "productUrls": [
+    "W009559366"
+  ],
+  "categoryUrls": [
+    "https://www.wayfair.com/furniture/sb0/sofas-c413892.html"
+  ],
+  "searchTerms": [
+    "coffee table"
+  ],
+  "filters": [],
+  "postalCode": "10001",
+  "market": "us",
+  "maxItems": 1,
+  "includeDetails": false,
+  "brand": "",
+  "minPrice": 0,
+  "maxPrice": 0,
+  "minRating": 0,
+  "inStockOnly": false,
+  "sortBy": "RECOMMENDED"
+}

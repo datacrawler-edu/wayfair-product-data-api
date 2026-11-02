@@ -1,0 +1,148 @@
+{
+  "repository": {
+    "name": "wayfair-product-data-api",
+    "description": "Wayfair product data API examples: collect prices, stock and specifications with Python, JavaScript or cURL, then export JSON and CSV.",
+    "homepage": "https://apify.com/datascraperes/wayfair-scraper?fpr=edudata",
+    "language": "Python",
+    "license": "MIT"
+  },
+  "actor": {
+    "displayName": "Wayfair Scraper | Product Specs, Prices & Stock",
+    "id": "datascraperes/wayfair-scraper",
+    "storeUrl": "https://apify.com/datascraperes/wayfair-scraper",
+    "apiBaseUrl": "https://api.apify.com/v2/acts/datascraperes~wayfair-scraper",
+    "description": "Collect public Wayfair product listings, prices, stock and optional descriptions, dimensions and specifications in the US, Canada and UK."
+  },
+  "affiliate": {
+    "enabled": true,
+    "parameter": "fpr=edudata",
+    "actorUrl": "https://apify.com/datascraperes/wayfair-scraper?fpr=edudata",
+    "pricingUrl": "https://apify.com/pricing?fpr=edudata"
+  },
+  "platform": {
+    "apifyFreePlan": {
+      "monthlyPrepaidUsage": "$5",
+      "renewsMonthly": true,
+      "noCreditCardRequired": true,
+      "unusedCreditsExpire": true,
+      "sourceUrl": "https://apify.com/pricing?fpr=edudata"
+    }
+  },
+  "interfaces": {
+    "web": {
+      "enabled": true,
+      "inputTab": "Input",
+      "outputTab": "Dataset",
+      "runAction": "Start",
+      "primaryInput": "productUrls",
+      "inputLabel": "Product URLs or SKUs",
+      "inputSummary": "Choose Product details and add a Wayfair product URL or SKU, or choose a category or keyword mode.",
+      "exportFormats": [
+        "JSON",
+        "CSV",
+        "Excel"
+      ]
+    },
+    "api": {
+      "enabled": true,
+      "examples": [
+        "cURL",
+        "Python",
+        "JavaScript"
+      ]
+    }
+  },
+  "seo": {
+    "primaryKeyword": "Wayfair product data API",
+    "secondaryKeywords": [
+      "Wayfair scraper Python",
+      "Wayfair prices CSV",
+      "Wayfair inventory API",
+      "Wayfair product specifications"
+    ],
+    "topics": [
+      "apify",
+      "wayfair",
+      "ecommerce",
+      "product-data",
+      "python",
+      "csv",
+      "api-examples",
+      "price-monitoring"
+    ],
+    "longTailIntents": [
+      "Export Wayfair category prices to CSV",
+      "Read Wayfair product dimensions with Python",
+      "Batch keyword product searches across storefronts"
+    ]
+  },
+  "content": {
+    "readmeSectionOrder": [
+      "What this repository helps you do",
+      "Example result",
+      "Run without code",
+      "Try it with Apify's free plan",
+      "Quick start for developers",
+      "Input example",
+      "Request examples",
+      "Output fields",
+      "Common use cases",
+      "Long-tail use-case sections",
+      "FAQ",
+      "Limits and pricing",
+      "Hosted version",
+      "Responsible use",
+      "Support"
+    ],
+    "exampleFiles": [
+      "examples/python/collect_products.py",
+      "examples/python/batch_keyword_search.py",
+      "examples/python/export_products_csv.py"
+    ],
+    "faqFile": "docs/faq.md"
+  },
+  "pricing": {
+    "summary": "Pay per event. One product event per verified Dataset row; no separate detail event or Actor usage surcharge.",
+    "unit": "one product event for a delivered product, listing, search-resolution or stock row",
+    "price": "FREE: $0.001/event ($1 per 1,000); BRONZE $0.0009; SILVER $0.0008; GOLD/PLATINUM/DIAMOND $0.00075."
+  },
+  "distribution": {
+    "githubUrl": "https://github.com/datacrawler-edu/wayfair-product-data-api",
+    "actorToGithubUrl": "https://github.com/datacrawler-edu/wayfair-product-data-api",
+    "githubToActorUrl": "https://apify.com/datascraperes/wayfair-scraper?fpr=edudata",
+    "organizationHubUrl": "https://github.com/datacrawler-edu",
+    "firstRelease": {
+      "tag": "v1.0.0",
+      "title": "Wayfair product data API examples"
+    }
+  },
+  "examples": {
+    "inputFile": "data/sample-input.json",
+    "outputFile": "data/sample-output.json",
+    "csvFile": "data/sample-output.csv"
+  },
+  "measurement": {
+    "observationWindowDays": 30,
+    "githubSignals": [
+      "views",
+      "uniqueVisitors",
+      "clones",
+      "referrers",
+      "popularContent"
+    ],
+    "apifySignals": [
+      "users",
+      "runs",
+      "datasetItems",
+      "revenue"
+    ],
+    "searchChecks": [
+      "site:github.com/datacrawler-edu/wayfair-product-data-api",
+      "Wayfair product data API Python CSV"
+    ]
+  },
+  "support": {
+    "issuesUrl": "https://github.com/datacrawler-edu/wayfair-product-data-api/issues",
+    "actorSupportUrl": "https://apify.com/datascraperes/wayfair-scraper?fpr=edudata"
+  }
+}

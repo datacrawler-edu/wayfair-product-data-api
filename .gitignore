@@ -1,0 +1,35 @@
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node.js
+node_modules/
+
+# Generated and local data
+.DS_Store
+Thumbs.db
+data/exported-*.csv
+dist/
+build/
+*.log
+storage/
+tmp/
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+
+# Internal agent instructions must never be published
+AGENTS.md
